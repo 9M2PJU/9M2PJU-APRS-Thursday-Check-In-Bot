@@ -1,4 +1,4 @@
-# 📡 APRS Thursday Check-in Bot (Dockerized)
+# 📡 9m2pju APRS Thursday Check-in Bot
 
 A lightweight, fully-automated **APRS bot** that checks in to the global [#APRSThursday](https://aprs.org/aprsthursday.html) net every **Thursday**. Built with Python and packaged in Docker for effortless deployment.
 
