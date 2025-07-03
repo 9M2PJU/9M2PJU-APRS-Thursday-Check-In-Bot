@@ -1,6 +1,6 @@
 # 📡 APRS Thursday Check-in Bot (Dockerized)
 
-A lightweight, fully-automated **APRS bot** that checks in to the global [#APRSThursday](https://aprs.org/aprsthursday.html) net every **Thursday at 9:00 PM Malaysia Time (MYT)**. Built with Python and packaged in Docker for effortless deployment on Linux, Raspberry Pi, and ARM-based devices.
+A lightweight, fully-automated **APRS bot** that checks in to the global [#APRSThursday](https://aprs.org/aprsthursday.html) net every **Thursday**. Built with Python and packaged in Docker for effortless deployment on Linux based devices.
 
 ---
 
