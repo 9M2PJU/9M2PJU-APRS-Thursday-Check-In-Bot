@@ -11,7 +11,7 @@ PASSCODE = "PASSCODE"
 SERVER = "aprs.hamradio.my"
 PORT = 14580
 DEST = "ANSRVR"
-MESSAGE = "CQ HOTG Hello from CALLSIGN APRS Bot"
+MESSAGE = "CQ HOTG Hello from CALLSIGN"
 
 # Malaysia timezone
 MALAYSIA = pytz.timezone("Asia/Kuala_Lumpur")
