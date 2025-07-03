@@ -21,7 +21,7 @@ A lightweight, fully-automated **APRS bot** that checks in to the global [#APRST
 This bot sends an APRS message to `ANSRVR` in the correct format:
 
 ```
-CQ HOTG Hello from 9M2PJU-4 APRS Bot
+CQ HOTG Hello from CALLSIGN
 ```
 
 This message checks into the [#APRSThursday](https://aprsph.net/aprsthursday/) net, which promotes APRS usage worldwide.
