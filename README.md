@@ -11,7 +11,7 @@ A lightweight, fully-automated **APRS bot** that checks in to the global [#APRST
 - 🐍 Written in pure **Python** using `aprslib` and `schedule`
 - 🐳 **Dockerized** for consistent, cross-platform use
 - 🔌 **Manual test mode** to trigger messages instantly
-- 🧠 Designed for **low-resource systems** (e.g. Raspberry Pi, DietPi)
+- 🧠 Designed for **low-resource systems** (e.g. Raspberry Pi)
 - 📦 Works out-of-the-box with **zero cron or systemd setup**
 
 ---
