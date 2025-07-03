@@ -175,7 +175,7 @@ HOTG Your message here
 ## 📊 See Check-in Map & Logs
 
 - You can view visual check-ins at **[aprs.to](https://aprs.to)** (by N2RWE) — started July 13, 2023
-- The **APRSPH logging system** started on January 11, 2024
+- The **[APRSPH logging system](https://aprsph.net/aprsthursday/)** started on January 11, 2024
 
 ---
 
