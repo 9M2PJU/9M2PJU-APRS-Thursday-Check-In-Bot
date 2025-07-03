@@ -26,7 +26,7 @@ def send_aprs_message():
 
         # Construct APRS message packet to ANSRVR
         # Format: "CALLSIGN>APRS,TCPIP*:;DST :message"
-        packet = f"{CALLSIGN}>APRS::{'ANSRVR':<9}:CQ HOTG Hello from 9M2PJU-4 APRS Bot"
+        packet = f"{CALLSIGN}>APRS::{'ANSRVR':<9}:CQ HOTG Hello from CALLSIGN"
 
         aprs.sendall(packet)
         print("✅ APRS message sent successfully to ANSRVR.")
