@@ -85,12 +85,12 @@ docker compose down
 To update callsign, passcode, or message, edit the `aprs_bot.py` file:
 
 ```python
-CALLSIGN = "9M2PJU-4"
-PASSCODE = "12970"
+CALLSIGN = "CALLSIGN"
+PASSCODE = "YOURPASSCODE"
 SERVER = "aprs.hamradio.my"
 PORT = 14580
 DEST = "ANSRVR"
-MESSAGE = "CQ HOTG Hello from 9M2PJU-4 APRS Bot"
+MESSAGE = "CQ HOTG Hello from CALLSIGN"
 ```
 
 ---
