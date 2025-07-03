@@ -1,5 +1,3 @@
-import schedule
-import time
 import argparse
 from datetime import datetime
 import pytz
@@ -23,34 +21,20 @@ def send_aprs_message():
     try:
         aprs = aprslib.IS(CALLSIGN, passwd=PASSCODE)
         aprs.connect(SERVER, PORT)
-
-        # Construct APRS message packet to ANSRVR
-        # Format: "CALLSIGN>APRS,TCPIP*:;DST :message"
-        packet = f"{CALLSIGN}>APRS::{'ANSRVR':<9}:CQ HOTG Hello from CALLSIGN"
-
+        packet = f"{CALLSIGN}>APRS::{'ANSRVR':<9}:{MESSAGE}"
         aprs.sendall(packet)
         print("✅ APRS message sent successfully to ANSRVR.")
     except Exception as e:
         print(f"❌ Failed to send APRS message: {e}")
 
-def job_wrapper():
-    now = datetime.now(MALAYSIA)
-    if now.weekday() == 3:  # Thursday
-        send_aprs_message()
-
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--test', action='store_true', help='Send APRS message immediately for testing')
+    parser.add_argument('--test', action='store_true', help='Send APRS message immediately (manual trigger)')
     args = parser.parse_args()
 
     if args.test:
-        send_aprs_message()
-    else:
-        schedule.every().day.at("21:00").do(job_wrapper)
-        print("📡 APRS Bot is running. Waiting for Thursday 9:00 PM MYT to send message...")
-        while True:
-            schedule.run_pending()
-            time.sleep(60)
+        print("🔧 Test mode: Manual APRS message trigger")
+    send_aprs_message()
 
 if __name__ == "__main__":
     main()
