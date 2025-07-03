@@ -1,6 +1,6 @@
 # 📡 9M2PJU APRS Thursday Check-in Bot
 
-A lightweight, fully-automated **APRS bot** that checks in to the global [#APRSThursday](https://aprs.org/aprsthursday.html) net every **Thursday**. Built with Python and packaged in Docker for effortless deployment.
+A lightweight, fully-automated **APRS bot** that checks in to the global [#APRSThursday](https://aprsph.net/aprsthursday/) net every **Thursday**. Built with Python and packaged in Docker for effortless deployment.
 
 ---
 
@@ -24,7 +24,7 @@ This bot sends an APRS message to `ANSRVR` in the correct format:
 CQ HOTG Hello from 9M2PJU-4 APRS Bot
 ```
 
-This message checks into the [#APRSThursday](https://aprs.org/aprsthursday.html) net, which promotes APRS usage worldwide.
+This message checks into the [#APRSThursday](https://aprsph.net/aprsthursday/) net, which promotes APRS usage worldwide.
 
 ---
 
