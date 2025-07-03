@@ -98,6 +98,87 @@ docker compose down
 
 ---
 
+## 🌍 What is #APRSThursday?
+
+**#APRSThursday** is a weekly global net for [APRS](https://en.wikipedia.org/wiki/Automatic_Packet_Reporting_System) users. It happens every **Thursday from 0000Z to 2359Z** (the whole day in UTC time). The goal is to encourage hams to send APRS messages and have some fun.
+
+---
+
+## ✅ How to Join
+
+You join by sending a message to **ANSRVR** (an APRS messaging group server).
+
+### 📤 Send this message *once* on Thursday:
+```
+CQ HOTG Your message here
+```
+
+- `CQ` = calling anyone  
+- `HOTG` = stands for **"Hams on the Gram"** (the APRS group)  
+- `Your message here` = whatever short message you'd like to send  
+
+📍 **Send this as an APRS message to the callsign: `ANSRVR`**
+
+When you do this:
+- You join the HOTG group for 12 hours
+- Your message is sent to everyone in the group
+- You’ll also receive any messages sent by others during that time
+
+---
+
+## 🚪 How to Leave the Group
+
+When you're done listening or want to stop receiving messages, send this message to `ANSRVR`:
+
+```
+U HOTG
+```
+
+- `U` = Unsubscribe from HOTG
+
+This helps reduce traffic on the APRS RF network.
+
+---
+
+## 🔇 Stay Subscribed, But Silent
+
+If you want to stay subscribed **without** sending a message to the group, send:
+
+```
+K HOTG
+```
+
+- `K` = Silent join
+
+This keeps you in the group for another 12 hours without alerting others.  
+Useful if you’re on RF and don’t want to flood the airwaves.
+
+---
+
+## 🧭 Alternative Check-in (No Message Flood)
+
+If you prefer **not** to have your message forwarded to the group (to avoid RF congestion), you can send your check-in **directly to `APRSPH`**.
+
+### 📤 Send this message to `APRSPH`:
+```
+HOTG Your message here
+```
+
+- Your check-in **is logged** for #APRSThursday
+- Your message **is NOT sent** to the group
+- You'll get a **confirmation reply** with timestamp and a URL
+
+📝 This method still counts for the #APRSThursday logs.
+
+---
+
+## 📊 See Check-in Map & Logs
+
+- You can view visual check-ins at **[aprs.to](https://aprs.to)** (by N2RWE) — started July 13, 2023
+- The **APRSPH logging system** started on January 11, 2024
+
+---
+
 ## 📚 Resources
 
 - 🌍 [APRS Thursday Info](https://aprsph.net/aprsthursday/)
