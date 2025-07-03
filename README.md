@@ -40,8 +40,8 @@ This message checks into the [#APRSThursday](https://aprsph.net/aprsthursday/) n
 ### 1. Clone this repo
 
 ```bash
-git clone git@github.com:9M2PJU/APRS-Thursday-Check-in-Bot-Dockerized.git
-cd APRS-Thursday-Check-in-Bot-Dockerized
+git clone git@github.com:9M2PJU/9M2PJU-APRS-Thursday-Check-In-Bot.git
+cd 9M2PJU-APRS-Thursday-Check-In-Bot
 ```
 
 ### 2. Build the Docker image
@@ -82,16 +82,7 @@ docker compose down
 
 ## 🔒 Configuration
 
-To update callsign, passcode, or message, edit the `aprs_bot.py` file:
-
-```python
-CALLSIGN = "CALLSIGN"
-PASSCODE = "YOURPASSCODE"
-SERVER = "aprs.hamradio.my"
-PORT = 14580
-DEST = "ANSRVR"
-MESSAGE = "CQ HOTG Hello from CALLSIGN"
-```
+To update callsign, passcode, or message, edit the `aprs_bot.py` file
 
 ---
 
