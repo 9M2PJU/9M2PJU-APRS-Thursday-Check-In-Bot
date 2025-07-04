@@ -49,14 +49,7 @@ cd 9M2PJU-APRS-Thursday-Check-In-Bot
 
 ### 2. Edit your configuration
 
-Open `aprs_bot.py` and update the following variables:
-
-```python
-CALLSIGN = "YOUR_CALLSIGN"
-PASSCODE = "YOUR_PASSCODE"
-MESSAGE  = "HOTG Hello from YOUR_CALLSIGN"
-
-```
+Open `aprs_bot.py` and update all the variables
 
 ### 3. Build the Docker image
 
