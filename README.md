@@ -49,7 +49,7 @@ cd 9M2PJU-APRS-Thursday-Check-In-Bot
 
 ### 2. Edit your configuration
 
-Open `aprs_bot.py` and update all the variables
+Open `aprs-thursday-check-in.py` and update all the variables
 
 ### 3. Build the Docker image
 
@@ -72,7 +72,7 @@ The bot will now run continuously and auto-send your check-in every Thursday at 
 To send the APRS message immediately (for testing), run:
 
 ```bash
-docker compose run --rm aprs-bot python /app/aprs_bot.py --test
+docker compose run --rm aprs-thursday-check-in python /app/aprs-thursday-check-in.py --test
 ```
 
 ---
