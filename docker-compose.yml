@@ -1,7 +1,7 @@
 services:
-  aprs-bot:
+  aprs-thursday-check-in:
     build: .
-    container_name: aprs-thursday-bot
+    container_name: aprs-thursday-check-in
     restart: always
     environment:
       - TZ=Asia/Kuala_Lumpur
