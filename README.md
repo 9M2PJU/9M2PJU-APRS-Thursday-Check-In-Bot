@@ -87,7 +87,7 @@ docker compose down
 
 ## 🔧 Configuration Notes
 
-- To change the message or server details, edit `aprs_bot.py`.
+- To change the message or server details, edit `aprs-thursday-check-in.py`.
 - Log output is stored in `./log/cron.log` by default.
 
 ---
