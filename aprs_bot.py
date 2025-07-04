@@ -8,8 +8,8 @@ CALLSIGN = "CALLSIGN"
 PASSCODE = "PASSCODE"
 SERVER = "aprs.hamradio.my"
 PORT = 14580
-DEST = "ANSRVR"
-MESSAGE = "CQ HOTG Hello from CALLSIGN"
+DEST = "APRSPH"
+MESSAGE = "HOTG Hello from CALLSIGN"
 
 # Malaysia timezone
 MALAYSIA = pytz.timezone("Asia/Kuala_Lumpur")
@@ -21,9 +21,9 @@ def send_aprs_message():
     try:
         aprs = aprslib.IS(CALLSIGN, passwd=PASSCODE)
         aprs.connect(SERVER, PORT)
-        packet = f"{CALLSIGN}>APRS::{'ANSRVR':<9}:{MESSAGE}"
+        packet = f"{CALLSIGN}>APRS::{'APRSPH':<9}:{MESSAGE}"
         aprs.sendall(packet)
-        print("✅ APRS message sent successfully to ANSRVR.")
+        print("✅ APRS message sent successfully.")
     except Exception as e:
         print(f"❌ Failed to send APRS message: {e}")
 
