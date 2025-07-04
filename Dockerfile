@@ -11,10 +11,10 @@ RUN apk add --no-cache curl bash busybox-suid && \
 
 # Create app directory
 WORKDIR /app
-COPY aprs_bot.py /app/aprs_bot.py
+COPY aprs-thursday-check-in.py /app/aprs-thursday-check-in.py
 
 # Create cron job for Thursday 9PM MYT (13:00 UTC)
-RUN echo "0 13 * * 4 python /app/aprs_bot.py >> /var/log/cron.log 2>&1" > /etc/crontabs/root
+RUN echo "0 13 * * 4 python /app/aprs-thursday-check-in.py >> /var/log/cron.log 2>&1" > /etc/crontabs/root
 
 # Touch log file
 RUN touch /var/log/cron.log
