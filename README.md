@@ -18,10 +18,10 @@ A lightweight, fully-automated **APRS bot** that checks in to the global [#APRST
 
 ## 📨 What It Sends
 
-This bot sends the following APRS message to `ANSRVR`:
+This bot sends the following APRS message to `APRSPH`:
 
 ```
-CQ HOTG Hello from CALLSIGN
+HOTG Hello from CALLSIGN
 ```
 
 This checks into the [#APRSThursday](https://aprsph.net/aprsthursday/) net, encouraging global participation in APRS messaging.
@@ -54,7 +54,8 @@ Open `aprs_bot.py` and update the following variables:
 ```python
 CALLSIGN = "YOUR_CALLSIGN"
 PASSCODE = "YOUR_PASSCODE"
-MESSAGE  = "CQ HOTG Hello from YOUR_CALLSIGN"
+MESSAGE  = "HOTG Hello from YOUR_CALLSIGN"
+
 ```
 
 ### 3. Build the Docker image
