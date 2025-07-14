@@ -184,7 +184,7 @@ HOTG Your message here
 ## 🧑‍💻 Author
 
 Created and maintained by [9M2PJU](https://github.com/9M2PJU) 🇲🇾  
-Licensed under the [MIT License](https://opensource.org/licenses/MIT)
+Licensed under the GNU GPL 3.0
 
 ---
 
