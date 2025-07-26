@@ -67,6 +67,22 @@ The bot will now run continuously and auto-send your check-in every Thursday at 
 
 ---
 
+### 📆 Schedule with Crontab
+
+Edit your crontab with:
+
+```bash
+crontab -e
+```
+
+Add the following line to run every Thursday at **9:00 PM Malaysia Time (UTC+8)**:
+
+```cron
+0 21 * * 4 /usr/bin/python3 /path/to/aprs-thursday-check-in.py >> /path/to/log/aprs.log 2>&1
+```
+
+📌 Make sure to replace `/path/to/` with your actual Python script and log file paths.
+
 ## 🧪 Manual Test Mode
 
 To send the APRS message immediately (for testing), run:
